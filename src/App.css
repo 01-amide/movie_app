@@ -1,20 +1,58 @@
-/* Global styles for Movie App */
+/**
+ * App.css - Global Styles for MovieApp
+ * 
+ * This file contains global CSS styles for the MovieApp React application.
+ * It includes base styles, custom scrollbar styling, and font configurations
+ * that provide a cinematic dark theme throughout the application.
+ * 
+ * @fileoverview Global CSS styles for MovieApp
+ * @version 1.0.0
+ * @author React Hooks Project
+ */
+
+/* ==========================================================================
+   GLOBAL STYLES
+   ========================================================================== */
+
+/**
+ * Global body styles
+ * - Removes default margin for full-width layout
+ * - Sets Inter font family for modern, clean typography
+ */
 body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
+  margin: 0; /* Remove default browser margin */
+  font-family: 'Inter', sans-serif; /* Modern, clean font family */
 }
 
-/* Scrollbar styling (for cinematic dark vibe) */
+/* ==========================================================================
+   CUSTOM SCROLLBAR STYLING
+   ========================================================================== */
+
+/**
+ * Custom scrollbar styling for cinematic dark theme
+ * 
+ * These styles create a custom scrollbar that matches the dark theme
+ * of the application, providing a more polished and cohesive user experience.
+ * The scrollbar uses dark colors with subtle hover effects.
+ */
+
+/* Main scrollbar track and thumb container */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 10px; /* Width of the scrollbar */
 }
+
+/* Scrollbar track (background) */
 ::-webkit-scrollbar-track {
-  background: #0f0f0f;
+  background: #0f0f0f; /* Very dark background matching app theme */
 }
+
+/* Scrollbar thumb (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background: #444;
-  border-radius: 6px;
+  background: #444; /* Dark gray color for the thumb */
+  border-radius: 6px; /* Rounded corners for modern look */
 }
+
+/* Scrollbar thumb hover state */
 ::-webkit-scrollbar-thumb:hover {
-  background: #666;
+  background: #666; /* Lighter gray on hover for better UX */
 }

@@ -1,1 +1,25 @@
+/**
+ * index.css - Tailwind CSS Import and Global Styles
+ * 
+ * This file serves as the entry point for Tailwind CSS in the MovieApp.
+ * It imports the complete Tailwind CSS framework which provides:
+ * - Utility-first CSS framework
+ * - Responsive design utilities
+ * - Dark mode support
+ * - Custom component styling
+ * - Pre-built design system
+ * 
+ * Tailwind CSS is used throughout the application for:
+ * - Layout and positioning (flexbox, grid, spacing)
+ * - Typography (font sizes, weights, colors)
+ * - Colors and theming (dark theme implementation)
+ * - Responsive design (breakpoints, mobile-first)
+ * - Interactive states (hover, focus, transitions)
+ * 
+ * @fileoverview Tailwind CSS import and global styles
+ * @version 1.0.0
+ * @author React Hooks Project
+ */
+
+/* Import Tailwind CSS framework */
 @import "tailwindcss";
